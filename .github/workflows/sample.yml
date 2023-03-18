@@ -1,9 +1,6 @@
 name: Action Sample
 
-on:
-  push:
-    branches: 
-      - master
+on: [push]
       
 jobs:
   numpy-test:
