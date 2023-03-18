@@ -4,8 +4,7 @@ on:
   push:
     branches: 
       - master
-  workflow_dispatch:
-
+      
 jobs:
   numpy-test:
     runs-on: ubuntu-latest
